@@ -1,7 +1,6 @@
-var token = '5418473536:AAF-1uKNcXRMsml97XO6jWsgnfYb3Hyz59Q';
-//var ssId = '1PnO7TWT4ccgoKCzBeVVoXoS7_pucl628A5iSvz3Ithk';
+var token = 'xxx';
 var telegramUrl = 'https://api.telegram.org/bot' + token;
-var webAppUrl = 'https://script.google.com/macros/s/AKfycbzzcFmCHt-QecaW_RQDYLYOIu8l1FVLeowdgpTNQqCY213BWI2x/exec';
+var webAppUrl = 'xxx';
 
 function setWebhook() {
     var url = telegramUrl + "/setWebhook?url=" + webAppUrl;
